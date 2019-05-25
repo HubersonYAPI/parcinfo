@@ -1,0 +1,50 @@
+===Database parcinfo
+
+== Table structure for table admin
+
+|------
+|Column|Type|Null|Default
+|------
+|**id**|int(11)|No|
+|//**mat**//|varchar(9)|No|0
+|name|varchar(30)|Yes|0
+|firstName|varchar(30)|Yes|0
+|email|varchar(30)|Yes|0
+|pwd|varchar(30)|Yes|0
+|phone|varchar(30)|Yes|0
+|role|varchar(30)|Yes|0
+== Dumping data for table admin
+
+|1|A001|YAPI|JOSIAS|josiasyapi@gmail.com|azerty|03015235|admin
+|2|A002|ASSOUMOU|JACQUES|jacquesassoumou@gmail.com|qwerty|78541296|edit
+|5|A003|TOKALE|FALONNE|falonnetokale@gmail.com|123456|44225536|edit
+== Table structure for table equipment
+
+|------
+|Column|Type|Null|Default
+|------
+|**id**|int(11)|No|
+|//**code**//|varchar(50)|No|0
+|type|varchar(50)|Yes|0
+|name|varchar(70)|Yes|0
+|model|varchar(70)|Yes|0
+|userName|varchar(500)|Yes|0
+== Dumping data for table equipment
+
+|1|E001|ORDINATEUR|HP PROBOOK|0|KOFFI BORIS
+|4|E003|IMPRIMANTE|TOKALE ASSA|AAA|yapi josias
+== Table structure for table users
+
+|------
+|Column|Type|Null|Default
+|------
+|**id**|int(11)|No|
+|//**mat**//|varchar(10)|No|
+|names|varchar(500)|Yes|NULL
+|service|varchar(40)|Yes|NULL
+|poste|varchar(40)|Yes|NULL
+|phone|varchar(15)|Yes|NULL
+== Dumping data for table users
+
+|1|U001|yapi josias|Informatique|Informaticien|03015235
+|3|U002|KOFFI BORIS|Comptable|Chef de service|44225536
